@@ -17,5 +17,43 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "0f91d549-98e8-4e95-aa1e-209b99874489",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/editar",
+    "url": "http://localhost:8080/api/editar",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2023-04-23T21:27:13.138Z",
+    "modified": "2023-04-23T21:32:15.253Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"codigo\":2,\"nome\":\"Benevanio\",\"idade\":55}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6d8c4acf-602c-4281-ac2a-15c8279eb41a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api/1",
+    "url": "http://localhost:8080/api/1",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-04-23T21:37:18.978Z",
+    "modified": "2023-04-23T21:37:18.978Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"codigo\":2,\"nome\":\"Benevanio\",\"idade\":55}",
+      "form": []
+    },
+    "tests": []
   }
 ]
