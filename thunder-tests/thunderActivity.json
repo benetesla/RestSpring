@@ -5,10 +5,10 @@
     "containerId": "",
     "name": "http://localhost:8080/pessoa",
     "url": "http://localhost:8080/api",
-    "method": "POST",
+    "method": "GET",
     "sortNum": 0,
     "created": "2023-04-23T12:45:43.637Z",
-    "modified": "2023-04-23T15:12:22.000Z",
+    "modified": "2023-04-23T16:11:58.129Z",
     "headers": [],
     "params": [],
     "body": {
