@@ -5,7 +5,10 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-
+import lombok.Getter;
+import lombok.Setter;
+@Getter
+@Setter
 @Entity 
 @Table(name = "pessoa") 
 public class Pessoa {
@@ -14,16 +17,5 @@ public class Pessoa {
     private int codigo;    
     private String nome;
     private int idade;
-    public String getNome() {
-        return nome;
-    }
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-    public int getIdade() {
-        return idade;
-    }
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
+   
 }
