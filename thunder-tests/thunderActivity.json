@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "186469dc-1425-48d5-bbe4-678119c431a5",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/pessoa",
+    "url": "http://localhost:8080/api",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-23T12:45:43.637Z",
+    "modified": "2023-04-23T15:12:22.000Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"nome\":\"Tesla\",\n  \"idade\": 25\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
