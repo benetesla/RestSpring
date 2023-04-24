@@ -55,5 +55,43 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "9436a6d6-2579-4887-bc30-ad1195b7cc0f",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api",
+    "url": "http://localhost:8080/api",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2023-04-23T21:41:58.616Z",
+    "modified": "2023-04-23T21:41:58.616Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"nome\":\"Ralf\",\"idade\":45}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9517b679-885f-4954-b397-b4c50a29b202",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/api",
+    "url": "http://localhost:8080/api",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-04-23T21:42:05.155Z",
+    "modified": "2023-04-24T15:48:26.614Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\"nome\":\"Carlos\",\"idade\":28}",
+      "form": []
+    },
+    "tests": []
   }
 ]
