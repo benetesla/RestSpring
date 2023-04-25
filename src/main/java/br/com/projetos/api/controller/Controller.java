@@ -18,7 +18,7 @@ public class Controller {
     private Repositorio acao;
     @PostMapping("/api")
     public Pessoa cadastrarPessoa(@RequestBody Pessoa pessoa) {
-        return acao.save(pessoa);
+        return acao.save(pessoa); 
     }
     @GetMapping("/api")
     public List<Pessoa> listarPessoas() {
