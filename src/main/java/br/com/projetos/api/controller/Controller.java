@@ -20,6 +20,11 @@ public class Controller {
     public Pessoa cadastrarPessoa(@RequestBody Pessoa pessoa) {
         return acao.save(pessoa); 
     }
+
+    @GetMapping("/api/order")
+    public List<Pessoa> listarPessoasOrdenadas() {
+        return acao.findByOrderByNome();
+    }
     @GetMapping("/api")
     public List<Pessoa> listarPessoas() {
         return acao.findAll();
