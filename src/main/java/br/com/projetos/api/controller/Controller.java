@@ -20,10 +20,9 @@ public class Controller {
     public Pessoa cadastrarPessoa(@RequestBody Pessoa pessoa) {
         return acao.save(pessoa); 
     }
-
     @GetMapping("/api/order")
     public List<Pessoa> listarPessoasOrdenadas() {
-        return acao.findByOrderByNome();
+        return acao.findByOrderByNomeDesc();
     }
     @GetMapping("/api")
     public List<Pessoa> listarPessoas() {
@@ -40,9 +39,11 @@ public class Controller {
     @DeleteMapping("/api/{codigo}")    
     public void removerPessoa(@PathVariable int codigo) {
         acao.deleteById(codigo);
+    }  
+    @GetMapping("/api/orderName")
+    public List<Pessoa> orderName() {
+        return acao.findByNomeOrderByIdadeDesc("Benevanio");
     }
-
-   
     @GetMapping("/")
     public String saudacao() {
         return "Olá, seja bem vindo!";
